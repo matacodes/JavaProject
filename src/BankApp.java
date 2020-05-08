@@ -41,18 +41,11 @@ class BankAccount {
 		System.out.println("Klient: ");
 		System.out.println("ID Klienta: ");
 		System.out.println("");
-<<<<<<< HEAD
 		System.out.println("1. Sprawdz bilans konta");
 		System.out.println("2. Wp³ata");
 		System.out.println("3. Wyp³ata");
-=======
-		System.out.println("1. Sprawdz balans konta");
-		System.out.println("2. Wpï¿½ata");
-		System.out.println("3. Wypï¿½ata");
->>>>>>> a009c53ad9b76c64160c6bdd0676df806ed286f8
 		System.out.println("4. Ostatnia tranzakcja");
 		System.out.println("5. Koniec");
-
 
 	}
 
