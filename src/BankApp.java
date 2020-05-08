@@ -40,7 +40,7 @@ class BankAccount {
 		System.out.println("Klient: ");
 		System.out.println("ID Klienta: ");
 		System.out.println("");
-		System.out.println("1. Sprawdz balans konta");
+		System.out.println("1. Sprawdz bilans konta");
 		System.out.println("2. Wp³ata");
 		System.out.println("3. Wyp³ata");
 		System.out.println("4. Ostatnia tranzakcja");
