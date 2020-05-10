@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 // Public class for a Bank Application
 public class BankApp {
 
@@ -9,10 +10,11 @@ public class BankApp {
     public static void main(String[] args) {
 
         System.out.println(APP_NAME);
-        BankControl ControlBank = new BankControl(); // wywolujemy pierwsze menu / tworzymy obiekt klas
-        ControlBank.controlLop1();
-
-
+        // BankControl ControlBank = new BankControl(); // wywolujemy pierwsze menu / tworzymy obiekt klas
+        // ControlBank.controlLop1();
+        
+        BankAccount account1 = new BankAccount("1234", "Kowalski");
+        account1.menu();
 
     }
 
@@ -25,6 +27,10 @@ class BankAccount {
 
 	// Object of bank account with two parameters: customer id and customer name
 	BankAccount(String custid, String custname) {
+	    int balance; // Amount of money on customer's account
+	    int lastTransaction; // Amount of money that can be withdrawn or deposited during last transaction
+	    String customerID; // Customer ID
+	    String customerName; // Customer Name
 	}
 
 	// Method of deposit
@@ -51,8 +57,8 @@ class BankAccount {
 		System.out.println("ID Klienta: ");
 		System.out.println("");
 		System.out.println("1. Sprawdz bilans konta");
-		System.out.println("2. Wp�ata");
-		System.out.println("3. Wyp�ata");
+		System.out.println("2. Wplata");
+		System.out.println("3. Wyplata");
 		System.out.println("4. Ostatnia tranzakcja");
 		System.out.println("5. Koniec");
 
