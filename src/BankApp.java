@@ -3,11 +3,20 @@ import java.util.Scanner;
 // Public class for a Bank Application
 public class BankApp {
 
-	public static void main(String[] args) {
 
-		System.out.println("******  Witaj w aplikacji ePortfel  ******");
+	private static final String APP_NAME = "******  Witaj w aplikacji ePortfel  ******";
 
-	}
+    public static void main(String[] args) {
+
+        System.out.println(APP_NAME);
+        BankControl ControlBank = new BankControl(); // wywolujemy pierwsze menu / tworzymy obiekt klas
+        ControlBank.controlLop1();
+
+
+
+    }
+
+
 
 }
 
